@@ -1,0 +1,8 @@
+> This Dataset contains the full length [0 1500] time series and the corresponding pre-transition residuals for the forced (transcritical) bifurcations.
+> Residuals are taken pre-transition. However, the time series are of full length [0 1500]. Bifurcation points are recorded in a seperate file. If you need pre-transition time series, you can crop a simulation upto a bifurcation point.
+> Forced bifurcations are choosen at random points form a triangular distributions and the transition points are lying between [0 1500]. 
+> If there is no transition before t = 1500, we consider the simulation as a null bifurcation and the full length of the time series and residuals [0 1500] is taken for the null bifurcation simulations. 
+> For easy tracking, bifurcation point for a null simulation is set at time=1500. 
+> Labels are 0 for null tseries and 1 for forced tseries. 
+> resids_all folder contains all the residuals from three models. 
+> labels_all are the labels for all the resids_all files. 

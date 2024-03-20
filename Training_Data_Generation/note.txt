@@ -1,0 +1,2 @@
+> These codes were used to generate training data from noise-induced SIR models. 
+> The data was generated in multiple batches using the Compute Canada server. 
