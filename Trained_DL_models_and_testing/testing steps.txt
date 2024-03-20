@@ -1,0 +1,14 @@
+step-1: simulate data from test models or take empirical data (codes are in "test_models_simulations_and_empirical_data" folder). 
+
+step-2: input test simulations to trained DL model and generate output predictions (codes "DL_apply_...." are in "trained_DL_models_and_DL_apply" folder). Trained DL models are also given in this folder. 
+
+step-3: organize predictions of a DL model (codes "organize_ml_data_...." are in "test_output_processing_and_ROC" folder) 
+
+step-4: compute Kendall tau for variance and lag-1 AC (code is in "test_output_processing_and_ROC" folder). 
+
+step-5: compute ROC curves (codes "compute_ROC_...." are in "test_output_processing_and_ROC" folder).
+
+step-6: use output from above steps to generate bar plots used in figures of the paper (codes are in "plot_codes" folder). 
+
+*"data" folder contains all the test related data used in the paper. 
+
