@@ -23,7 +23,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.callbacks import ModelCheckpoint
 from datetime import datetime
 
-random.seed(datetime.now())
+random.seed(42)
 
 # Get command line parameters
 # model_type = int(sys.argv[1])                          
